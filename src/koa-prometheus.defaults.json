@@ -65,10 +65,10 @@
       "path": [ "res", "length" ]
     },
     "buckets": {
-      "type": "linear",
-      "start": 0,
-      "buckets": 10,
-      "factor": 1
+      "type": "exponential",
+      "start": 1000,
+      "buckets": 15,
+      "factor": 2
     }
   }, 
   {
